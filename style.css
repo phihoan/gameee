@@ -49,7 +49,22 @@ body {
   display: none;
   cursor: pointer;
 }
-
+.container__game-mode--easy {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.container__game-mode--normal {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 30%;
+  right: 35%;
+  padding: 10px;
+  border-radius: 10px;
+}
 #perfect {
   position: absolute;
   opacity: 0;
